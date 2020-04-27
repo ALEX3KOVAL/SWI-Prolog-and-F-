@@ -1,14 +1,11 @@
-%я сделал другую проверку числа на простоту, т.к. она работает быстрее
-/*аргументы предиката result(..):
-Number - отправное число, с которого начинаем поиск нужной
-последовательности;
-Tally1,..,Tally4 - переменные для искомой последовательности*/
-
-prime_check(1):-!,fail.
-prime_check(2):-!.
-prime_check(Number):-Number < 5,Number>2,Number mod 2 =\= 0,!.
-prime_check(Number):-!,Number > 0,Square is Number*Number, Remainder is
-Square mod 24, Remainder = 1.
+primes(3).
+primes(5).
+prime_check(X):-primes(X),!.
+prime_check(X):-pr(X),asserta(primes(X)).
+pr(2):-!.
+pr(X):-pr1(2,X).
+pr1(X,X):-!.
+pr1(I,X):-Y is X mod I, not(Y=0), I1 is I+1,pr1(I1,X).
 next_prime_multiplier(Number,Multiplier,Next_multiplier):-Number>=Multiplier,prime_check(Multiplier),
 Remainder is Number mod Multiplier,Remainder=0, Next_multiplier is
 Multiplier, !.
