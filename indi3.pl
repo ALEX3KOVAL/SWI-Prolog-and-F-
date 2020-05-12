@@ -1,4 +1,4 @@
-pr5_4:-see('file1.txt'),tell('result.txt'),read_str_str.
+ind3:-see('file1.txt'),tell('result.txt'),read_str_str.
 
 write_str([]):-!.
 write_str([H|T]):-put(H),write_str(T),!.
