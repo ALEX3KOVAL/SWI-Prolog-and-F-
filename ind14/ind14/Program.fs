@@ -1,4 +1,4 @@
-﻿open System
+open System
 open System.Drawing
 open System.IO
 open System.Windows.Forms
@@ -9,9 +9,7 @@ let button = new Button(Text = "Нажмите", Top = 190,Left = 10)
 let box1 = new RichTextBox(Width = 240, Height = 30, Font = new Font(FontFamily("Consolas"), 16.0f,FontStyle.Bold), Top = 50)
 let box2 = new RichTextBox(Width = 240, Height = 30, Font = new Font(FontFamily("Consolas"), 16.0f,FontStyle.Bold), Top = 100)
 box1.Dock = DockStyle.Fill
-box1.ForeColor = Color.Red
 box2.Dock = DockStyle.Fill
-box2.ForeColor = Color.Red
 form.Controls.Add(box1)
 form.Controls.Add(button)
 let readstr =
