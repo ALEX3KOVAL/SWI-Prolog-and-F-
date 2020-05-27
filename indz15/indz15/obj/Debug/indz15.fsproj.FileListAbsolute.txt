@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\indz15\indz15\bin\Debug\indz15.exe.config
+C:\Users\User\source\repos\indz15\indz15\bin\Debug\indz15.XML
+C:\Users\User\source\repos\indz15\indz15\bin\Debug\indz15.exe
+C:\Users\User\source\repos\indz15\indz15\bin\Debug\indz15.pdb
+C:\Users\User\source\repos\indz15\indz15\bin\Debug\FSharp.Core.dll
+C:\Users\User\source\repos\indz15\indz15\bin\Debug\System.ValueTuple.dll
+C:\Users\User\source\repos\indz15\indz15\bin\Debug\FSharp.Core.xml
+C:\Users\User\source\repos\indz15\indz15\bin\Debug\ru\FSharp.Core.resources.dll
+C:\Users\User\source\repos\indz15\indz15\obj\Debug\indz15.exe
+C:\Users\User\source\repos\indz15\indz15\obj\Debug\indz15.pdb
