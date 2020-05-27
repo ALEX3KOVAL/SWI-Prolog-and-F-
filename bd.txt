@@ -1,0 +1,5 @@
+  ID  |Gender|Height|Weight|Age| AMR |   BMR   |   Kkal  |  Fats  |Protein |Carbohydrates|
+AK1201| Male |  185 |  74  |19 |  3  |
+VF1021| Male |  185 |  94  |20 |  0  |
+AZ1222| Male |  183 |  76  |20 |  2  |
+EN0201|Female|  156 |  48  |19 |  3  |
